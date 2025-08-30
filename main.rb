@@ -20,13 +20,6 @@ chat = RubyLLM.chat(
   provider: :ollama,
   assume_model_exists: true
 )
-  .on_tool_call do |tool_call|
-    tool_call = T.let(tool_call, RubyLLM::ToolCall)
-    puts ("-" * 20).colorize(:light_blue)
-    puts "Tool called: #{tool_call.name}".colorize(:light_blue)
-    puts "#{tool_call.arguments}".colorize(:light_blue)
-    puts ("-" * 20).colorize(:light_blue)
-  end
 
 agent_loop = AgentLoop.new(chat, working_directory)
 agent_loop.start_loop
