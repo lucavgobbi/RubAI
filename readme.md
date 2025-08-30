@@ -1,7 +1,7 @@
 
-# RubAI
+# RubAgent
 
-RubAI is the simplest coding agent that can be created. It is a minimal Ruby project for learning and experimentation with Large Language Models (LLMs) using the RubyLLM gem and Ollama. This repository is not intended for production use, but rather as a playground to explore how to connect Ruby applications to AI APIs and handle responses.
+RubAgent is the simplest coding agent that can be created. It is a minimal Ruby project for learning and experimentation with Large Language Models (LLMs) using the RubyLLM gem and Ollama. This repository is not intended for production use, but rather as a playground to explore how to connect Ruby applications to AI APIs and handle responses.
 
 ## Purpose
 This project serves as a hands-on introduction to integrating Ruby with LLM services. It demonstrates basic usage patterns, error handling, and configuration, making it a useful reference for anyone interested in experimenting with AI in Ruby.
